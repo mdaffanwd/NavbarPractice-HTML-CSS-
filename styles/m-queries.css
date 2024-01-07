@@ -28,10 +28,32 @@
     right: 0;
     
   }
-  /* .nav-links ul {
-    font-size: 2vw;
-    display: flex;
-    transform: translateX(100%);
-    flex-direction: column;
-  } */
+}
+@media screen and (min-width:601) and (max-width: 900px){
+
+      .navbar{
+      padding: 3vw 7vw;
+      }
+    
+      .navbar .logo {
+        font-size: 6vw;
+        /* background-color: red; */
+      }
+      .nav-links ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        font-size: 60px;
+        top: 100%;
+        right: -100%;
+        width: 50%;
+        height: 100vh;
+        /* background-color: red; */
+        padding: 4vw 5vw ;
+        gap: 5vw;
+      }
+      .nav-links ul.open{
+        right: 0;
+        
+      }
 }
